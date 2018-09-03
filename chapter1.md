@@ -1,7 +1,7 @@
 # 角色管理
 
 ```
-/api/base/sysRole
+/api/base/role
 ```
 
 1、角色分页列表
