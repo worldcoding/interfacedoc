@@ -174,5 +174,17 @@
 | mobile | string | 电话 |  |
 | roleId | string | 角色Id |  |
 
+请求参数示例：
+
+```
+{
+    "email": "12344@qq.com",
+    "mobile": "18812561389",
+    "name": "hello",
+    "password": "123132",
+    "roleId": 2324
+}
+```
+
 
 
