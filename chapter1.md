@@ -6,8 +6,8 @@
 
 | 字段 | 类型 | 名称 | 说明 |
 | :--- | :--- | :--- | :--- |
-| pageIndex | string | 页面索引 | 大于0的数字 |
-| pageSize | string | 分页大小 | 大于0的数字 |
+| pageIndex | int | 页面索引 | 大于0的数字 |
+| pageSize | int | 分页大小 | 大于0的数字 |
 | name | string | 角色名称 | 可为空 |
 
 请求参数示例：
@@ -20,15 +20,32 @@
 }
 ```
 
-返回参数：
+返回实体结构：
 
 | 字段 | 类型 | 名称 |
 | :--- | :--- | :--- |
-| code | string | 错误编码 |
-| success | bool | 是否成功 |
-| message | string | 错误描述 |
-| resquestId | string | 请求id，请求唯一标识 |
-|  |  |  |
+| roleId | string | 角色id |
+| name | string | 角色名称 |
+| remark | string | 角色说明 |
+| gmtCreate | Date | 创建时间 |
+
+返回报文示例：
+
+```
+{
+    "code": 0,
+    "message": "成功",
+    "resquestId": "123454",
+    "result": [{
+        "gmtCreate": 1535955721965,
+        "remark": "备注",
+        "roleId": "100001",
+        "roleName": "系统管理员"
+    }],
+    "success": true,
+    "totalCount": 100
+}
+```
 
 
 
