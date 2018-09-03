@@ -97,13 +97,6 @@
 | address | string | 地址 |
 | gmtCreate | date | 注册时间 |
 | gmtModified | date | 更新时间 |
-| userList | array | 厂商用户列表 |
-| userList.userId | string | 用户id |
-| userList.name | string | 用户名 |
-| userList.nick | string | 昵称 |
-| userList.mobile | string | 电话 |
-| userList.gmtCreate | date | 添加时间 |
-| userList.role | string | 用户角色 |
 
 返回报文示例：
 
