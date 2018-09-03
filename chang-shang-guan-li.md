@@ -109,15 +109,7 @@
         "address": "西斗门路",
         "linkman": "test",
         "name": "中天",
-        "tel": "13834535345",
-        "userList": [{
-            "email": "324453@qq.com",
-            "mobile": "18812561389",
-            "name": "test",
-            "nick": "hello",
-            "role": "客服",
-            "userId": 1324
-        }]
+        "tel": "13834535345"
     },
     "success": true
 }

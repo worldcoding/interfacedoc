@@ -41,5 +41,24 @@
 
 返回报文示例：
 
+```
+{
+    "code": 0,
+    "message": "成功",
+    "requestId": "1989999",
+    "result": [{
+        "email": "324453@qq.com",
+        "mobile": "18812561389",
+        "name": "test",
+        "roleList": [{
+            "roleId": "123",
+            "name": "客服"
+        }],
+        "nick": "hello"
+    }],
+    "success": true
+}
+```
+
 
 
