@@ -1,6 +1,14 @@
-# 角色管理\(/api/base/sysRole\)
+# 角色管理
 
-1、角色分页列表\(/pageList\)
+```
+/api/base/sysRole
+```
+
+1、角色分页列表
+
+```
+/pageList
+```
 
 请求参数：
 
@@ -44,6 +52,30 @@
     }],
     "success": true,
     "totalCount": 100
+}
+```
+
+2、新增角色
+
+```
+/add
+```
+
+请求参数：
+
+| 字段 | 类型 | 名称 | 说明 |
+| :--- | :--- | :--- | :--- |
+| name | string | 角色名称 |  |
+| remark | string | 备注 |  |
+| menuList | array | 角色权限列表 |  |
+
+请求参数示例：
+
+```
+{
+    "funList": ["1244"],
+    "name": "管理员",
+    "remark": "备注"
 }
 ```
 
