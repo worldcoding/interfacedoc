@@ -19,5 +19,17 @@
 }
 ```
 
+返回报文示例：
+
+```
+{
+    "result":{"Authorization","token"},
+    "requestId":"233334",
+    "code": 0,
+    "message": "成功",
+    "success": true
+}
+```
+
 
 
