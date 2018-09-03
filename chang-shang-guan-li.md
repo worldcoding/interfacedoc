@@ -38,7 +38,7 @@
 {
     "code": 0,
     "message": "成功",
-    "resquestId": "123454",
+    "requestId": "123454",
     "result": [{
         "address": "西斗门",
         "linkman": "test",
@@ -111,7 +111,7 @@
 {
     "code": 0,
     "message": "成功",
-    "resquestId": "1989999",
+    "requestId": "1989999",
     "result": {
         "address": "西斗门路",
         "linkman": "test",

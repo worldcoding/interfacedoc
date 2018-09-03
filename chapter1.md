@@ -43,7 +43,7 @@
 {
     "code": 0,
     "message": "成功",
-    "resquestId": "123454",
+    "requestId": "123454",
     "result": [{
         "gmtCreate": 1535955721965,
         "remark": "备注",
