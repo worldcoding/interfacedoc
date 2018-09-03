@@ -164,5 +164,15 @@
 /addUser
 ```
 
+请求参数：
+
+| 字段 | 类型 | 名称 | 说明 |
+| :--- | :--- | :--- | :--- |
+| name | string | 用户名 |  |
+| password | string | 密码 |  |
+| email | string | 邮箱 |  |
+| mobile | string | 电话 |  |
+| roleId | string | 角色Id |  |
+
 
 
