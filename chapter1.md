@@ -23,8 +23,8 @@
 ```
 {
     "name": "管理员",
-    "pageIndex": "1",
-    "pageSize": "10"
+    "pageIndex": 1,
+    "pageSize": 10
 }
 ```
 
