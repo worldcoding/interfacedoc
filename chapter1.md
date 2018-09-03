@@ -67,7 +67,7 @@
 | :--- | :--- | :--- | :--- |
 | name | string | 角色名称 |  |
 | remark | string | 备注 |  |
-| menuList | array | 角色权限列表 |  |
+| funList | array | 角色权限列表 |  |
 
 请求参数示例：
 
@@ -76,6 +76,16 @@
     "funList": ["1244"],
     "name": "管理员",
     "remark": "备注"
+}
+```
+
+返回报文示例：
+
+```
+{
+    "code": 0,
+    "message": "成功",
+    "success": true
 }
 ```
 
