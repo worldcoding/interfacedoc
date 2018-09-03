@@ -1,7 +1,7 @@
 ## 厂商管理
 
 ```
-/api/base/sysOrg
+/api/base/org
 ```
 
 1、厂商分页列表
