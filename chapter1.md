@@ -141,5 +141,32 @@
 {"roleId":"223434"}
 ```
 
+返回报文：
+
+| 字段 | 类型 | 名称 |
+| :--- | :--- | :--- |
+| name | string | 角色名称 |
+| remark | string | 备注 |
+| menuList | array | 菜单列表 |
+| menuList.parentId | string | 上级菜单id |
+| menuList.menuId | string | 菜单id |
+| menuList.name | string | 菜单名称 |
+| menuList.select | bool | 是否拥有此菜单权限 |
+
+返回报文示例：
+
+```
+{
+    "menuList": [{
+        "meunId": "1223",
+        "name": "test",
+        "parentId": "0",
+        "select": true
+    }],
+    "name": "管理员",
+    "remark": "备注"
+}
+```
+
 
 
