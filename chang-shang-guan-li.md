@@ -92,7 +92,7 @@
 | 字段 | 类型 | 名称 |
 | :--- | :--- | :--- |
 | name | string | 厂商名称 |
-| linkman | string |  联系人 |
+| linkman | string | 联系人 |
 | tel | string | 联系电话 |
 | address | string | 地址 |
 | gmtCreate | date | 注册时间 |
@@ -127,6 +127,24 @@
         }]
     },
     "success": true
+}
+```
+
+3、修改厂商
+
+```
+/modify
+```
+
+请求参数示例：
+
+```
+{
+    "address": "西斗门",
+    "linkman": "test",
+    "name": "中天",
+    "orgId": "113",
+    "tel": "18812561389"
 }
 ```
 
