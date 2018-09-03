@@ -95,5 +95,25 @@
 /modify
 ```
 
+请求参数：
+
+| 字段 | 类型 | 名称 | 说明 |
+| :--- | :--- | :--- | :--- |
+| roleId | string | 角色id |  |
+| name | string |  |  |
+| remark | string |  |  |
+| funList | array |  |  |
+
+请求参数示例：
+
+```
+{
+    "roleId": "123466"
+    "funList": ["1244"],
+    "name": "管理员",
+    "remark": "备注"
+}
+```
+
 
 
