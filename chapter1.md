@@ -20,5 +20,15 @@
 }
 ```
 
+返回参数：
+
+| 字段 | 类型 | 名称 |
+| :--- | :--- | :--- |
+| code | string | 错误编码 |
+| success | bool | 是否成功 |
+| message | string | 错误描述 |
+| resquestId | string | 请求id，请求唯一标识 |
+|  |  |  |
+
 
 
