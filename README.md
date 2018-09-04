@@ -19,5 +19,11 @@
 | requestId | string |  |
 | result | Object | 业务处理返回实体 |
 
+日期字符串格式：
+
+| yyyy-mm-dd hh24:mi:ss |
+| :--- |
+
+
 
 

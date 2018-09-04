@@ -95,8 +95,8 @@
 | linkman | string | 联系人 |
 | tel | string | 联系电话 |
 | address | string | 地址 |
-| gmtCreate | date | 注册时间 |
-| gmtModified | date | 更新时间 |
+| gmtCreate | string | 注册时间（yyyy-mm-dd hh24:mi:ss） |
+| gmtModified | string | 更新时间 |
 
 返回报文示例：
 
@@ -182,8 +182,6 @@
     "success": true
 }
 ```
-
-
 
 
 
