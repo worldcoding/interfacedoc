@@ -48,14 +48,14 @@
 
 | 字段 | 类型 | 名称 |
 | :--- | :--- | :--- |
-| parentId |  |  |
-| menuId |  |  |
-| name |  |  |
-| url |  |  |
-| type |  |  |
-| icon |  |  |
-| perms |  |  |
-| orderNum |  |  |
+| parentId | string |  |
+| menuId | string |  |
+| name | string |  |
+| url | string |  |
+| type | string |  |
+| icon | string |  |
+| perms | string |  |
+| orderNum | string |  |
 
 返回报文示例：
 
@@ -71,7 +71,8 @@
         "parentId": "0",
         "perms": "insert.user",
         "type": "1",
-        "url": "url"
+        "url": "url",
+        "orderNum":"1"
     }],
     "success": true,
     "totalCount": 100
