@@ -120,11 +120,12 @@
 
 | 字段 | 类型 | 名称 | 说明 |
 | :--- | :--- | :--- | :--- |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
+| name | string | 厂商名称 |  |
+| linkman | string | 联系人 |  |
+| tel | string | 联系电话 |  |
+| address | string | 地址 |  |
+| userName | string | 用户名 |  |
+| password | string | 密码 |  |
 
 
 
