@@ -4,31 +4,7 @@
 /api/base/dict
 ```
 
-1、获取所有菜单
-
-```
-/list
-```
-
-无请求参数
-
-返回报文示例：
-
-```
-{
-    "result": [{
-        "meunId": "432",
-        "parentId": "123",
-        "name": "系统管理"
-    }],
-    "requestId": "233334",
-    "code": 0,
-    "message": "成功",
-    "success": true
-}
-```
-
-2、菜单分页列表
+1、字典分页列表
 
 ```
 /pageList
