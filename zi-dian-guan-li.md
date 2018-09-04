@@ -24,14 +24,13 @@
 
 | 字段 | 类型 | 名称 |
 | :--- | :--- | :--- |
-| parentId |  |  |
-| menuId |  |  |
-| name |  |  |
-| url |  |  |
-| type |  |  |
-| icon |  |  |
-| perms |  |  |
-| orderNum |  |  |
+| dectId | string | 字典Id |
+| name | string | 字典名称 |
+| type | string | 类型 |
+| code | string | 字典码 |
+| value | string | 字典值 |
+| orderNum | string | 排序字段 |
+| remark | string | 说明 |
 
 返回报文示例：
 
