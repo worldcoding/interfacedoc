@@ -17,7 +17,7 @@
 | pageIndex | int |  |  |
 | pageSize | int |  |  |
 | condition | Object | 检索条件 |  |
-| condition.name | string | 帐号 |  |
+| condition.userName | string | 厂商帐号 |  |
 | condition.beginDate | string | 日志创建开始时间 | 格式：2018-09-04 |
 | conditon.endDate | string | 日志创建结束时间 |  |
 
@@ -26,7 +26,7 @@
 ```
 {
     "condition": {
-        "name": "hello",
+        "userName": "hello",
         "beginDate": "2018-09-04",
         "endDate": "2018-0904"
     },
