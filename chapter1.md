@@ -35,7 +35,7 @@
 | roleId | string | 角色id |
 | name | string | 角色名称 |
 | remark | string | 角色说明 |
-| gmtCreate | Date | 创建时间 |
+| gmtCreate | string | 创建时间 |
 
 返回报文示例：
 
@@ -45,7 +45,7 @@
     "message": "成功",
     "requestId": "123454",
     "result": [{
-        "gmtCreate": 1535955721965,
+        "gmtCreate": "2018-09-04 09:48:21",
         "remark": "备注",
         "roleId": "100001",
         "roleName": "系统管理员"
