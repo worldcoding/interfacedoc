@@ -4,4 +4,5 @@
 * [角色管理](chapter1.md)
 * [厂商管理](chang-shang-guan-li.md)
 * [用户管理](yong-hu-guan-li.md)
+  * [test](yong-hu-guan-li/test.md)
 
