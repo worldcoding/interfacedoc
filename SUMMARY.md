@@ -6,4 +6,9 @@
 * [用户管理](yong-hu-guan-li.md)
 * [菜单管理](cai-dan-guan-li.md)
 * [字典管理](zi-dian-guan-li.md)
+* [日志管理](ri-zhi-guan-li.md)
+  * [系统日志](ri-zhi-guan-li/xi-tong-ri-zhi.md)
+  * [用户日志](ri-zhi-guan-li/yong-hu-ri-zhi.md)
+  * 设备上下线日志
+  * 设备操作日志
 
