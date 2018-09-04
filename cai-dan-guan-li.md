@@ -94,6 +94,21 @@
 | icon | string | 图标url |  |
 | perms | string | 授权标识 |  |
 | orderNum | string | 排序数值 |  |
+| url | string | 菜单url |  |
+
+请求参数示例：
+
+```
+{
+    "icon": "url",
+    "name": "系统管理",
+    "parentId": "0",
+    "perms": "insert.user",
+    "type": "1",
+    "url": "url",
+    "orderNum":"2"
+}
+```
 
 
 
