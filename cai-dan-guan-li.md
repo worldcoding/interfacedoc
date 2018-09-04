@@ -78,5 +78,22 @@
 }
 ```
 
+3、新增菜单
+
+```
+/add
+```
+
+请求参数：
+
+| 字段 | 类型 | 名称 | 说明 |
+| :--- | :--- | :--- | :--- |
+| name | string | 菜单名称 |  |
+| parentId | string | 上级菜单Id |  |
+| type | string | 菜单类型 | 0:目录,1:菜单,2:按钮 |
+| icon | string | 图标url |  |
+| perms | string | 授权标识 |  |
+| orderNum | string | 排序数值 |  |
+
 
 
