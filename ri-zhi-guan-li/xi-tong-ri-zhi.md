@@ -21,5 +21,19 @@
 | condition.beginDate | string | 日志创建开始时间 | 格式：2018-09-04 |
 | conditon.endDate | string | 日志创建结束时间 |  |
 
+请求参数示例：
+
+```
+{
+    "condition": {
+        "name": "hello",
+        "beginDate": "2018-09-04",
+        "endDate": "2018-0904"
+    },
+    "pageIndex": 1,
+    "pageSize": 10
+}
+```
+
 
 
