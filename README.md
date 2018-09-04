@@ -21,13 +21,13 @@
 
 请求日期字符串格式：
 
-| yyyy-mm-dd hh24:mi:ss |
+| yyyy-mm-dd |
 | :--- |
 
 
 响应日期字符串格式：
 
-| yyyy-mm-dd |
+| yyyy-mm-dd hh24:mi:ss |
 | :--- |
 
 
