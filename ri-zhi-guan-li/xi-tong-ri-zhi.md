@@ -7,7 +7,7 @@
 1、日志分页列表
 
 ```
-/sysPageList
+/sysLogPageList
 ```
 
 请求参数：
