@@ -5,4 +5,5 @@
 * [厂商管理](chang-shang-guan-li.md)
 * [用户管理](yong-hu-guan-li.md)
 * [菜单管理](cai-dan-guan-li.md)
+* [字典管理](zi-dian-guan-li.md)
 

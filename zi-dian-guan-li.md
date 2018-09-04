@@ -1,7 +1,7 @@
 ## 字典管理
 
 ```
-/api/base/menu
+/api/base/dict
 ```
 
 1、获取所有菜单
