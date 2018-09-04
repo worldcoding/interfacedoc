@@ -129,5 +129,39 @@
 
 请求参数示例：
 
+```
+{
+    "address": "西斗门",
+    "linkman": "张三",
+    "name": "中天微",
+    "password": "123456",
+    "tel": "13812561389",
+    "userName": "hello"
+}
+```
+
+返回报文示例：
+
+```
+{
+    "code": 0,
+    "message": "成功",
+    "requestId":"233334",
+    "success": true
+}
+```
+
+6、修改密码
+
+```
+/modifyPwd
+```
+
+请求参数示例：
+
+```
+{"oldPwd:"123","newPwd":"556"}
+```
+
 
 
