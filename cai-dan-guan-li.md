@@ -120,5 +120,60 @@
 }
 ```
 
+4、修改菜单
+
+```
+/modify
+```
+
+请求参数说明同新增
+
+请求参数示例：
+
+```
+{
+    "menuId": "234",
+    "icon": "url",
+    "name": "系统管理",
+    "parentId": "0",
+    "perms": "insert.user",
+    "type": "1",
+    "url": "url",
+    "orderNum":"2"
+}
+```
+
+返回报文示例：
+
+```
+{
+    "code": 0,
+    "message": "成功",
+    "success": true
+}
+```
+
+5、删除菜单
+
+```
+/delete
+```
+
+请求参数示例：
+
+```
+{"menuId":"12333"}
+```
+
+返回报文示例：
+
+```
+{
+    "code": 0,
+    "message": "成功",
+    "success": true
+}
+```
+
 
 
