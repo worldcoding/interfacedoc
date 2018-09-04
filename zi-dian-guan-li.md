@@ -40,13 +40,13 @@
     "message": "成功",
     "requestId": "123454",
     "result": [{
-        "icon": "url",
-        "meunId": "1",
-        "name": "系统管理",
-        "parentId": "0",
-        "perms": "insert.user",
-        "type": "1",
-        "url": "url"
+        "code": "0",
+        "dectId": "13",
+        "name": "性别",
+        "orderNum": "1",
+        "remark": "备注",
+        "type": "sex",
+        "value": "女"
     }],
     "success": true,
     "totalCount": 100
