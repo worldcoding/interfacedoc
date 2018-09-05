@@ -53,6 +53,7 @@
 | name | string |  |
 | url | string |  |
 | type | string |  |
+| typeName | string | 类型对应名称 |
 | icon | string |  |
 | perms | string |  |
 | orderNum | string |  |
