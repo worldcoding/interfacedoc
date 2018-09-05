@@ -33,3 +33,50 @@
 
 所有接口请求方式均为`post`
 
+页面下拉列表通用接口说明：
+
+**`使用字典管理如下接口查询列表 /api/base/dict/dictList`**
+
+各个下拉列表type定义如下：
+
+```java
+        /**
+         * 菜单类型
+         */
+        String MENU_TYPE = "MenuType";
+        /**
+         * 删除标志
+         */
+        String DEL_FLAG = "DelFlag";
+        /**
+         *用户类型
+         */
+        String USER_TYPE = "UserType";
+        /**
+         * 用户状态
+         */
+        String USER_STATUS = "UserStatus";
+        /**
+         * 通讯方式
+         */
+        String NETWORK = "network";
+        /**
+         * 接入平台
+         */
+        String PLATFORM = "platform";
+        /**
+         * 数据类型
+         */
+        String DATA_TYPE = "数据类型";
+        /**
+         * 产品状态
+         */
+        String PRODUCT_TYPE = "ProdType";
+        /**
+         * 设备状态
+         */
+        String DEVICE_STATUS = "DevStatus";
+```
+
+
+
