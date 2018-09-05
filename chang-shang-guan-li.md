@@ -31,6 +31,8 @@
 | linkman | string | 联系人 |
 | tel | string | 联系电话 |
 | address | string | 联系地址 |
+| delflag | string | 标志 |
+| delflagName | string | 标志对应名称 |
 
 返回报文示例：
 
@@ -46,6 +48,8 @@
         "orderNum": "1",
         "orgId": "113",
         "parentId": "1",
+        "delflag": "-1",
+        "delflagName":"禁用",
         "tel": "18812561389"
     }],
     "success": true,
