@@ -35,7 +35,7 @@
 
 页面下拉列表通用接口说明：
 
-**`使用字典管理如下接口查询列表 /api/base/dict/dictList`**
+`使用字典管理如下接口查询列表 /api/base/dict/dictList`
 
 各个下拉列表type定义如下：
 
