@@ -72,6 +72,7 @@
         "parentId": "0",
         "perms": "insert.user",
         "type": "1",
+        "typeName":"目录",
         "url": "url",
         "orderNum":"1"
     }],
