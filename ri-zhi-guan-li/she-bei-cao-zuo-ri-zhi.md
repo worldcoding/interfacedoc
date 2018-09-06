@@ -25,5 +25,26 @@
 }
 ```
 
+返回报文示例：
+
+```
+{
+    "code": 0,
+    "message": "成功",
+    "requestId": "123454",
+    "result": [{
+        "gmtCreate": "2018-09-06 19:08:22",
+        "name": "门控",
+        "orgName": "中天",
+        "productName": "门控",
+        "status": "在线",
+        "time": "12",
+        "userName": "hello"
+    }],
+    "success": true,
+    "totalCount": 100
+}
+```
+
 
 
