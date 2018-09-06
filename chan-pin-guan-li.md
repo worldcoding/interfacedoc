@@ -28,10 +28,14 @@
 | name | string | 名称 |
 | model | string | 产品型号 |
 | network | string | 通讯方式 |
+| networkName | string | 通讯方式名称 |
 | platform | string | 接入平台 |
+| platformName | string | 平台名称 |
 | datatType | string | 数据类型 |
-| org | string | 所属厂商 |
+| dataTypeName | string | 数据类型名称 |
+| orgName | string | 所属厂商 |
 | productType | string | 产品状态 |
+| productTypeName | string | 产品状态描述 |
 | gmtCreate | string | 添加时间 |
 
 返回报文示例：
