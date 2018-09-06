@@ -103,5 +103,26 @@
 }
 ```
 
+3、修改产品
+
+```
+/modify
+```
+
+请求参数示例：
+
+```
+{
+    "dataConvert": "转换脚本",
+    "dataType": "透传",
+    "model": "1111111",
+    "name": "门控",
+    "network": "4G",
+    "platform": "阿里云",
+    "thingsModel": "{\"function\":\"属性\"}",
+    "productId": "3443"
+}
+```
+
 
 
