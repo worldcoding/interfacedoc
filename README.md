@@ -75,7 +75,7 @@
         /**
          * 设备状态
          */
-        String DEVICE_STATUS = "DevStatus";
+        String DEVICE_STATUS = "devStatus";
 ```
 
 
