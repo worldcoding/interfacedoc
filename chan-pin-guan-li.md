@@ -55,7 +55,7 @@
         "platform": "0",
         "platformName": "阿里云",
         "dataType": "1",
-        "dataTypeName": "透传"
+        "dataTypeName": "透传",
         "orgName": "中天",
         "productType":"0",
         "productTypeName": "发布"
@@ -113,14 +113,20 @@
 
 ```
 {
-    "dataConvert": "转换脚本",
-    "dataType": "透传",
-    "model": "1111111",
-    "name": "门控",
-    "network": "4G",
-    "platform": "阿里云",
-    "thingsModel": "{\"function\":\"属性\"}",
-    "productId": "3443"
+    "code": 0,
+    "message": "成功",
+    "requestId": "123454",
+    "result": {
+        "dataConvert": "转换脚本",
+        "dataType": "透传",
+        "model": "1111111",
+        "name": "门控",
+        "network": "4G",
+        "platform": "阿里云",
+        "thingsModel": "{\"function\":\"属性\"}"
+    },
+    "success": true,
+    "totalCount": 100
 }
 ```
 
