@@ -77,5 +77,17 @@
 {"productId": "1233"}
 ```
 
+返回报文实体：
+
+| 字段 | 类型 | 名称 |
+| :--- | :--- | :--- |
+| name | string | 名称 |
+| model | string | 型号 |
+| network | string | 通讯方式 |
+| platform | string | 接入平台 |
+| dataType | string | 数据类型 |
+| dataConvert | string | 转换脚本 |
+| thingsModel | string | 物模型（json字符串） |
+
 
 
