@@ -178,5 +178,30 @@
 }
 ```
 
+6、获取用户所有菜单
+
+```
+/userMenuList
+```
+
+无请求参数
+
+返回报文示例：
+
+```
+{
+    "result": [{
+        "meunId": "432",
+        "parentId": "123",
+        "name": "系统管理",
+        "type": "1"
+    }],
+    "requestId": "233334",
+    "code": 0,
+    "message": "成功",
+    "success": true
+}
+```
+
 
 
