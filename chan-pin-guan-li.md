@@ -50,16 +50,20 @@
         "productId": "12233",
         "name": "庭院门控",
         "model": "产品型号",
-        "network": "4G",
-        "platform": "阿里云",
-        "dataType": "透传",
-        "org": "中天",
-        "productType":"发布"
+        "network": "1",
+        "networkName": "4G",
+        "platform": "0",
+        "platformName": "阿里云",
+        "dataType": "1",
+        "dataTypeName": "透传"
+        "orgName": "中天",
+        "productType":"0",
+        "productTypeName": "发布"
     }],
     "success": true,
     "totalCount": 100
 }
 ```
 
-
+2、
 
