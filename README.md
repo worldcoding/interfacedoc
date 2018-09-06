@@ -67,7 +67,7 @@
         /**
          * 数据类型
          */
-        String DATA_TYPE = "数据类型";
+        String DATA_TYPE = "dataType";
         /**
          * 产品状态
          */
