@@ -169,5 +169,48 @@
 /pageList
 ```
 
+请求参数示例：
+
+```
+{
+    "name": "hello",
+    "pageIndex": 1,
+    "pageSize": 10
+}
+```
+
+返回报文实体：
+
+| 字段 | 类型 | 名称 |
+| :--- | :--- | :--- |
+| name | string | 用户名 |
+| nick | string | 昵称 |
+| email | string | 邮箱 |
+| mobile | string | 手机 |
+| gmtCreate | string | 创建时间 |
+| orgName | string | 所属厂商 |
+| deviceNum | string | 设备数量 |
+| status | string | 状态 |
+
+返回报文示例：
+
+```
+{
+    "code": 0,
+    "message": "成功",
+    "requestId": "123454",
+    "result": [{
+        "deviceNum": "3",
+        "email": "2222222@qq.com",
+        "gmtCreate": 1536232002186,
+        "mobile": "122334455",
+        "orgName": "中天",
+        "status": "正常"
+    }],
+    "success": true,
+    "totalCount": 100
+}
+```
+
 
 
