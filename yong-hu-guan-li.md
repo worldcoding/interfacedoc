@@ -202,7 +202,7 @@
     "result": [{
         "deviceNum": "3",
         "email": "2222222@qq.com",
-        "gmtCreate": 1536232002186,
+        "gmtCreate": '2018-09-06 19:08',
         "mobile": "122334455",
         "orgName": "中天",
         "status": "正常"
@@ -210,6 +210,12 @@
     "success": true,
     "totalCount": 100
 }
+```
+
+8、禁用用户
+
+```
+/disable
 ```
 
 
