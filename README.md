@@ -43,19 +43,19 @@
         /**
          * 菜单类型
          */
-        String MENU_TYPE = "MenuType";
+        String MENU_TYPE = "menuType";
         /**
          * 删除标志
          */
-        String DEL_FLAG = "DelFlag";
+        String DEL_FLAG = "delFlag";
         /**
          *用户类型
          */
-        String USER_TYPE = "UserType";
+        String USER_TYPE = "userType";
         /**
          * 用户状态
          */
-        String USER_STATUS = "UserStatus";
+        String USER_STATUS = "userStatus";
         /**
          * 通讯方式
          */
@@ -71,7 +71,7 @@
         /**
          * 产品状态
          */
-        String PRODUCT_TYPE = "ProdType";
+        String PRODUCT_TYPE = "prodType";
         /**
          * 设备状态
          */
