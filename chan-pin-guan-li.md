@@ -89,5 +89,19 @@
 | dataConvert | string | 转换脚本 |
 | thingsModel | string | 物模型（json字符串） |
 
+返回报文示例：
+
+```
+{
+    "dataConvert": "转换脚本",
+    "dataType": "透传",
+    "model": "1111111",
+    "name": "门控",
+    "network": "4G",
+    "platform": "阿里云",
+    "thingsModel": "{\"function\":\"属性\"}"
+}
+```
+
 
 
