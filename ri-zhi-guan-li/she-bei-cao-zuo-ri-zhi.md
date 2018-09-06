@@ -37,8 +37,7 @@
         "name": "门控",
         "orgName": "中天",
         "productName": "门控",
-        "status": "在线",
-        "time": "12",
+        "message": "在线",
         "userName": "hello"
     }],
     "success": true,
