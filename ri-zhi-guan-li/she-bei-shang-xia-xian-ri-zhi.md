@@ -57,5 +57,38 @@
 }
 ```
 
+2、设备上线日志列表
+
+```
+/list
+```
+
+请求参数示例：
+
+```
+{
+    "beginDate": "2018-09-06",
+    "endDate": "2018-09-06",
+    "deviceId": 1
+}
+```
+
+返回报文示例：
+
+```
+{
+    "code": 0,
+    "message": "成功",
+    "requestId": "123454",
+    "result": [{
+        "gmtCreate": "2018-09-06 19:08:22",
+        "status": "1",
+        "statusName": "在线"
+        "time": "12"
+    }],
+    "success": true
+}
+```
+
 
 
