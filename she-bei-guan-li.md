@@ -32,7 +32,8 @@
 | name | string | 所属产品 |
 | userName | string | 所属用户 |
 | orgName | string | 所属厂商 |
-| status | string | 状态 |
+| status | string | 状态编码 |
+| statusName | string | 状态名称 |
 
 返回报文示例：
 
@@ -47,6 +48,7 @@
         "gmtCreate": "2018-09-06 21:08:32",
         "name": "门控",
         "orgName": "中天",
+        "status": "1",
         "status": "正常",
         "userName": "hello"
     }],
