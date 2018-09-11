@@ -1,7 +1,7 @@
 ## 设备操作日志
 
 ```
-/api/device/log
+/api/product/log
 ```
 
 1、操作日志列表

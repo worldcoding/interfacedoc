@@ -1,7 +1,7 @@
 ## 设备上下线日志
 
 ```
-/api/device/onOff
+/api/product/onOff
 ```
 
 1、设备上下线日志分页列表

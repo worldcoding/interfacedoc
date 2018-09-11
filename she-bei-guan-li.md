@@ -1,7 +1,7 @@
 ## 设备管理
 
 ```
-/api/device/devi
+/api/product/devi
 ```
 
 1、设备列表
