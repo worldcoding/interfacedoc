@@ -81,7 +81,8 @@
         "gmtCreate": "2018-09-06 21:08:32",
         "name": "门控",
         "orgName": "中天",
-        "status": "正常",
+        "status": "1",
+        "statusName": "正常",
         "userName": "hello"
     },
     "success": true,
