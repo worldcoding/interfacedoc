@@ -33,6 +33,7 @@
 | userName | string | 用户名 |
 | productName | string | 产品名称 |
 | status | string | 状态 |
+| statusName | string | 状态名称 |
 | time | string | 时长 |
 | gmtCreate | string | 发生时间 |
 
@@ -48,7 +49,8 @@
         "name": "门控",
         "orgName": "中天",
         "productName": "门控",
-        "status": "在线",
+        "status": "1",
+        "statusName": "在线",
         "time": "12",
         "userName": "hello"
     }],
