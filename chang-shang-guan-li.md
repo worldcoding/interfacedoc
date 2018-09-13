@@ -97,6 +97,7 @@
 | :--- | :--- | :--- |
 | name | string | 厂商名称 |
 | linkman | string | 联系人 |
+| logo | string | 厂商logo |
 | tel | string | 联系电话 |
 | address | string | 地址 |
 | gmtCreate | string | 注册时间（yyyy-mm-dd hh24:mi:ss） |
@@ -133,6 +134,7 @@
     "linkman": "test",
     "name": "中天",
     "orgId": "113",
+    "logo": "url",
     "tel": "18812561389"
 }
 ```
