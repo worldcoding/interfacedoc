@@ -71,5 +71,17 @@
 /add
 ```
 
+请求参数示例：
+
+```
+{
+    "model": "CP6702-WIFI",
+    "type": "DTU",
+    "network": "0",
+    "networkName": "WIFI",
+    "config": "配置内容"
+}
+```
+
 
 
