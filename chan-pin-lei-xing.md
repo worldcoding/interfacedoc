@@ -4,7 +4,7 @@
 /api/base/prodType
 ```
 
-1、名称查询接口
+1、名称查询
 
 ```
 /pageList
@@ -36,6 +36,22 @@
     }],
     "success": true,
     "totalCount": 100
+}
+```
+
+2、新增类型
+
+```
+/add
+```
+
+请求参数示例：
+
+```
+{
+    "name": "灯",
+    "code": "deng",
+    "remark": "物模型"
 }
 ```
 
