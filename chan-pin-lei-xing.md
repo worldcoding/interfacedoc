@@ -55,5 +55,40 @@
 }
 ```
 
+返回报文示例：
+
+```
+{
+    "code": 0,
+    "message": "成功",
+    "success": true
+}
+```
+
+3、产品类型列表
+
+```
+/list
+```
+
+无请求参数
+
+返回报文示例：
+
+```
+{
+    "code": 0,
+    "message": "成功",
+    "requestId": "123454",
+    "result": [{
+        "typeId": "12233",
+        "name": "灯",
+        "code": "DENG"
+    }],
+    "success": true,
+    "totalCount": 100
+}
+```
+
 
 
