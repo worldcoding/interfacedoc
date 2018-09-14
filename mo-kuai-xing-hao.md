@@ -20,5 +20,26 @@
 }
 ```
 
+返回报文示例：
+
+```
+{
+    "code": 0,
+    "message": "成功",
+    "requestId": "123454",
+    "result": [{
+        "gmtCreate": "2018-09-04 12:32:20",
+        "modelId": "12233",
+        "model": "CP6702-WIFI",
+        "type": "DTU",
+        "network": "0",
+        "networkName": "WIFI",
+        "config": "配置内容"
+    }],
+    "success": true,
+    "totalCount": 100
+}
+```
+
 
 
