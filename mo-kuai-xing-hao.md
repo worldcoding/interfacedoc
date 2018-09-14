@@ -41,5 +41,29 @@
 }
 ```
 
+2、模组型号列表
+
+```
+/list
+```
+
+无请求参数
+
+返回报文示例：
+
+```
+{
+    "code": 0,
+    "message": "成功",
+    "requestId": "123454",
+    "result": [{
+        "modelId": "12233",
+        "model": "CP6702-WIFI",
+        "type": "DTU"
+    }],
+    "success": true
+}
+```
+
 
 
