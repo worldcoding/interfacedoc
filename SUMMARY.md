@@ -14,4 +14,5 @@
 * [产品管理](chan-pin-guan-li.md)
 * [设备管理](she-bei-guan-li.md)
 * [产品类型](chan-pin-lei-xing.md)
+* [模块型号](mo-kuai-xing-hao.md)
 
