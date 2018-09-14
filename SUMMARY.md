@@ -13,4 +13,5 @@
   * [设备操作日志](ri-zhi-guan-li/she-bei-cao-zuo-ri-zhi.md)
 * [产品管理](chan-pin-guan-li.md)
 * [设备管理](she-bei-guan-li.md)
+* [产品类型](chan-pin-lei-xing.md)
 
