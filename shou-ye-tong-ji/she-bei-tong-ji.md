@@ -16,5 +16,20 @@
 {"dayNum":"90"}
 ```
 
+返回报文示例：
+
+```
+{
+    "code": 0,
+    "message": "成功",
+    "requestId": "123454",
+    "result": [{
+        "regDate": "2018-09-04 12:32:20",
+        "userNum": "10"
+    }],
+    "success": true
+}
+```
+
 
 
