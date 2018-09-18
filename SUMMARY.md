@@ -17,5 +17,5 @@
 * [模块型号](mo-kuai-xing-hao.md)
 * [首页统计](shou-ye-tong-ji.md)
   * [用户统计](shou-ye-tong-ji/yong-hu-tong-ji.md)
-  * 设备统计
+  * [设备统计](shou-ye-tong-ji/she-bei-tong-ji.md)
 
