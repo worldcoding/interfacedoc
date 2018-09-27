@@ -94,16 +94,16 @@
 
 ```
 {
-	"dataTypeName": "透传",
-	"model": "产品型号",
-	"moduleId": "1000",
-	"moduleName": "模组型号",
-	"name": "门控",
-	"platform": "1",
-	"typeId": "1",
-	"dataParse": "数据解析",
-	"operateDef": "功能定义",
-	"protocolConvert": "协议转换"
+    "dataTypeName": "透传",
+    "model": "产品型号",
+    "moduleId": "1000",
+    "moduleName": "模组型号",
+    "name": "门控",
+    "platform": "1",
+    "typeId": "1",
+    "dataParse": "数据解析",
+    "operateDef": "功能定义",
+    "protocolConvert": "协议转换"
 }
 ```
 
@@ -151,14 +151,14 @@
 
 ```
 {
-    "dataConvert": "转换脚本",
+    "typeId": "产品类型Id",
     "dataType": "透传",
-    "model": "1111111",
+    "model": "产品型号",
     "name": "门控",
-    "moduleId": "模组型号",
+    "moduleId": "模组型号Id",
     "platConfig": "接入配置",
-    "platform": "阿里云",
-    "operateDef": "{\"function\":\"属性\"}"
+    "platform": "阿里云Id",
+    "remark": "描述"
 }
 ```
 
