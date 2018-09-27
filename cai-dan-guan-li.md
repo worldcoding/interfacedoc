@@ -191,14 +191,38 @@
 ```
 {
     "result": [{
-        "meunId": "432",
-        "parentId": "123",
-        "name": "系统管理",
+    "meunId": "1",
+    "parentId": "0",
+    "name": "系统管理",
+    "type": "0",
+    "url": "",
+    "icon": "",
+    "childList": [{
+        "meunId": "1000",
+        "parentId": "1",
+        "name": "角色管理",
         "type": "1",
-        "url": "",
-        "icon" "",
-        "orderNum": "1"
-    }],
+        "url": "/api/base/role",
+        "icon": "",
+        "childList": [{
+                "meunId": "1001",
+                "parentId": "1",
+                "name": "添加",
+                "type": "2",
+                "url": "/add",
+                "icon": ""
+            },
+            {
+                "meunId": "1002",
+                "parentId": "1",
+                "name": "删除",
+                "type": "2",
+                "url": "/delete",
+                "icon": ""
+            }
+        ]
+    }]
+}],
     "requestId": "233334",
     "code": 0,
     "message": "成功",
