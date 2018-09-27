@@ -46,20 +46,20 @@
     "message": "成功",
     "requestId": "123454",
     "result": [{
-	"dataTypeName": "透传",
-	"gmtCreate": "2018-09-27",
-	"model": "产品型号",
-	"moduleId": "1000",
-	"moduleName": "模组型号",
-	"name": "门控",
-	"orgName": "中天微",
-	"platform": "1",
-	"platformName": "阿里云",
-	"productId": "1123",
-	"productType": "1",
-	"productTypeName": "发布",
-	"typeId": "1",
-	"typeName": "产品类型"
+    "dataTypeName": "透传",
+    "gmtCreate": "2018-09-27",
+    "model": "产品型号",
+    "moduleId": "1000",
+    "moduleName": "模组型号",
+    "name": "门控",
+    "orgName": "中天微",
+    "platform": "1",
+    "platformName": "阿里云",
+    "productId": "1123",
+    "productType": "1",
+    "productTypeName": "发布",
+    "typeId": "1",
+    "typeName": "产品类型"
 }],
     "success": true,
     "totalCount": 100
@@ -155,9 +155,10 @@
     "dataType": "透传",
     "model": "1111111",
     "name": "门控",
-    "network": "4G",
+    "moduleId": "模组型号",
+    "platConfig": "接入配置",
     "platform": "阿里云",
-    "thingsModel": "{\"function\":\"属性\"}"
+    "operateDef": "{\"function\":\"属性\"}"
 }
 ```
 
