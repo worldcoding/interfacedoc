@@ -94,13 +94,16 @@
 
 ```
 {
-    "dataConvert": "转换脚本",
-    "dataType": "透传",
-    "model": "1111111",
-    "name": "门控",
-    "network": "4G",
-    "platform": "阿里云",
-    "thingsModel": "{\"function\":\"属性\"}"
+	"dataTypeName": "透传",
+	"model": "产品型号",
+	"moduleId": "1000",
+	"moduleName": "模组型号",
+	"name": "门控",
+	"platform": "1",
+	"typeId": "1",
+	"dataParse": "数据解析",
+	"operateDef": "功能定义",
+	"protocolConvert": "协议转换"
 }
 ```
 
@@ -114,17 +117,17 @@
 
 ```
 {
-	"dataTypeName": "透传",
-	"model": "产品型号",
-	"moduleId": "1000",
-	"moduleName": "模组型号",
-	"name": "门控",
-	"platform": "1",
-	"productId": "1123",
-	"typeId": "1",
-	"dataParse": "数据解析",
-	"operateDef": "功能定义",
-	"protocolConvert": "协议转换"
+    "dataTypeName": "透传",
+    "model": "产品型号",
+    "moduleId": "1000",
+    "moduleName": "模组型号",
+    "name": "门控",
+    "platform": "1",
+    "productId": "1123",
+    "typeId": "1",
+    "dataParse": "数据解析",
+    "operateDef": "功能定义",
+    "protocolConvert": "协议转换"
 }
 ```
 
