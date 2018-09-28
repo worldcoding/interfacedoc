@@ -49,5 +49,40 @@
 /debug
 ```
 
+请求参数示例：
+
+```
+{
+    "cmdStr": "{\"act\":6,\"body\":{\"switch\":\"1\"},\"seq\":\"3565755380170489856\"}",
+    "cmdType": 1, 
+    "deviceName": "csky0001",
+    "productId": "10000"
+}
+```
+
+```
+cmdType：1：控制命令；2：轮询配置
+```
+
+返回报文结构：
+
+```
+{
+    "code": 0,
+    "message": "成功",
+    "success": true
+}
+```
+
+返回成功表示命令成功接收
+
+调试日志异步提供
+
+调试日志websocket地址：
+
+```
+/socket/product/debug/{deviceName}
+```
+
 
 
