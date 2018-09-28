@@ -181,5 +181,17 @@
 {"roleType":1}
 ```
 
+返回报文：
+
+```
+{
+    "code": 0,
+    "message": "成功",
+    "requestId":"233334",
+    "success": true,
+    "result": {"roleId":"333","roleName":"开发人员"}
+}
+```
+
 
 
