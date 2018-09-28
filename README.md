@@ -76,6 +76,14 @@
          * 设备状态
          */
         String DEVICE_STATUS = "devStatus";
+        /**
+         * 系统事件
+         */
+        String SYSTEM_EVENT = "sysEvent";
+        /**
+         * 中断事件
+         */
+        String BREAK_EVENT = "breEvent";
 ```
 
 
