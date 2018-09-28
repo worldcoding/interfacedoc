@@ -48,7 +48,7 @@
 2、命令调试
 
 ```
-/convertCmd
+/convert
 ```
 
 
