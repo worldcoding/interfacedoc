@@ -90,7 +90,7 @@ cmdType：1：控制命令；2：轮询配置
 
 ```
 {
-    "cmdInfo": {
+    "cmdLogInfo": {
         "content": "{\"switch\":\"1\"}",
         "deviceId": "csky10001",
         "deviceName": "csky10001",
