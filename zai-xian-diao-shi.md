@@ -70,6 +70,8 @@ cmdType：1：控制命令；2：轮询配置
 {
     "code": 0,
     "message": "成功",
+    "requestId": "123454",
+    "result": {"commandId": "1123"}
     "success": true
 }
 ```
@@ -81,7 +83,31 @@ cmdType：1：控制命令；2：轮询配置
 调试日志websocket地址：
 
 ```
-/socket/product/debug/{deviceName}
+/socket/product/debug/{userId}
+```
+
+推送报文结构：
+
+```
+{
+    "cmdInfo": {
+        "content": "{\"switch\":\"1\"}",
+        "deviceId": "csky10001",
+        "deviceName": "csky10001",
+        "gmtCreate": "2018-09-29 11:48:31",
+        "model": "d233",
+        "msgType": "1",
+        "name": "灯",
+        "orgId": "1000",
+        "orgName": "中天",
+        "userId": "10000",
+        "userName": "test"
+    },
+    "commandId": "1123",
+    "errCode": 0,
+    "errMsg": "",
+    "success": true
+}
 ```
 
 
