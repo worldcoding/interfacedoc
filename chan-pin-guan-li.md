@@ -101,6 +101,7 @@
     "name": "门控",
     "platform": "1",
     "typeId": "1",
+    "typeName": "灯",
     "dataParse": "数据解析",
     "operateDef": "功能定义",
     "protocolConvert": "协议转换",
