@@ -29,9 +29,9 @@
 
 | 字段 | 类型 | 名称 |
 | :--- | :--- | :--- |
-| name | string | 设备名称 |
+| name | string | 产品名称 |
 | userName | string | 用户名 |
-| productName | string | 产品名称 |
+| deviceName | string | 设备条码 |
 | status | string | 状态 |
 | statusName | string | 状态名称 |
 | time | string | 时长 |
