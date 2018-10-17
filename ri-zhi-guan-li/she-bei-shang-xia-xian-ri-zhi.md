@@ -48,7 +48,7 @@
         "gmtCreate": "2018-09-06 19:08:22",
         "name": "门控",
         "orgName": "中天",
-        "productName": "门控",
+        "deviceName": "设备条码",
         "status": "1",
         "statusName": "在线",
         "time": "12",
