@@ -36,7 +36,7 @@
         "gmtCreate": "2018-09-06 19:08:22",
         "name": "门控",
         "orgName": "中天",
-        "productName": "门控",
+        "deviceName": "门控",
         "message": "在线",
         "userName": "hello"
     }],
