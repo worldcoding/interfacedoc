@@ -70,6 +70,7 @@
 | 字段 | 类型 | 名称 | 说明 |
 | :--- | :--- | :--- | :--- |
 | name | string | 角色名称 |  |
+| roleType | int | 类型 |  |
 | remark | string | 备注 |  |
 | funList | array | 角色权限列表 |  |
 
@@ -78,6 +79,7 @@
 ```
 {
     "funList": ["1244"],
+    "roleType": "0"
     "name": "管理员",
     "remark": "备注"
 }
