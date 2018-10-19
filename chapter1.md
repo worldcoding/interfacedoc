@@ -34,6 +34,8 @@
 | :--- | :--- | :--- |
 | roleId | string | 角色id |
 | name | string | 角色名称 |
+| roleType | int | 类型 |
+| roleTypeName | string | 类型描述 |
 | remark | string | 角色说明 |
 | gmtCreate | string | 创建时间 |
 
@@ -48,7 +50,9 @@
         "gmtCreate": "2018-09-04 09:48:21",
         "remark": "备注",
         "roleId": "100001",
-        "roleName": "系统管理员"
+        "roleName": "系统管理员",
+        "roleType": "0",
+        "roleType": "厂商用户角色"
     }],
     "success": true,
     "totalCount": 100
