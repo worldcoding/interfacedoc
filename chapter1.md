@@ -79,7 +79,7 @@
 ```
 {
     "funList": ["1244"],
-    "roleType": "0"
+    "roleType": "0",
     "name": "管理员",
     "remark": "备注"
 }
@@ -107,6 +107,7 @@
 | 字段 | 类型 | 名称 | 说明 |
 | :--- | :--- | :--- | :--- |
 | roleId | string | 角色id |  |
+| roleType | string |  |  |
 | name | string |  |  |
 | remark | string |  |  |
 | funList | array |  |  |
@@ -117,6 +118,7 @@
 {
     "roleId": "123466"
     "funList": ["1244"],
+    "roleType": "0",
     "name": "管理员",
     "remark": "备注"
 }
@@ -153,6 +155,8 @@
 | 字段 | 类型 | 名称 |
 | :--- | :--- | :--- |
 | name | string | 角色名称 |
+| roleType | int |  |
+| roleTypeName | string |  |
 | remark | string | 备注 |
 | menuList | array | 菜单列表 |
 | menuList.parentId | string | 上级菜单id |
@@ -167,6 +171,8 @@
     "menuList": [{
         "meunId": "1223",
         "name": "test",
+        "roleType": "0",
+        "roleTypeName": "厂商用户角色",
         "parentId": "0",
         "select": true
     }],
