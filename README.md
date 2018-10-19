@@ -84,6 +84,10 @@
          * 中断事件
          */
         String BREAK_EVENT = "breEvent";
+        /**
+         * 角色类型
+         */
+        String ROLE_TYPE = "roleType";
 ```
 
 
