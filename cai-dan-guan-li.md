@@ -229,34 +229,14 @@
 返回报文示例：
 
 ```
-[{
-    "permsList": ["sys.org.info"],
-    "name": "详情",
-    "icon": "",
-    "menuId": "1017",
-    "type": "2",
-    "parentId": "1016",
-    "url": "/systemControl/vendorDetail",
-    "children": [{
-        "children": [],
-        "permsList": ["sys.org.update"],
-        "name": "更新",
-        "icon": "",
-        "menuId": "1056",
-        "type": "2",
-        "parentId": "1017",
-        "url": ""
-    }]
-}, {
-    "children": [],
-    "permsList": ["sys.org.disable"],
-    "name": "禁用",
-    "icon": "",
-    "menuId": "1018",
-    "type": "2",
-    "parentId": "1016",
-    "url": ""
-}]
+{
+    "result": ["sys.module.list", "sys.prodType.info", "sys.role.update", "sys.role.info", 
+    "sys.role.delete", "sys.dict.add", "sys.org.disable"],
+    "requestId": "233334",
+    "code": 0,
+    "message": "成功",
+    "success": true
+}
 ```
 
 
