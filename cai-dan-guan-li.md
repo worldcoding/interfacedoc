@@ -178,7 +178,7 @@
 }
 ```
 
-6、获取用户所有菜单
+6、获取用户所有菜单（侧边栏）
 
 ```
 /userMenuList
@@ -191,36 +191,20 @@
 ```
 {
     "result": [{
-    "meunId": "1",
-    "parentId": "0",
     "name": "系统管理",
-    "type": "0",
-    "url": "",
     "icon": "",
-    "childList": [{
-        "meunId": "1000",
-        "parentId": "1",
-        "name": "角色管理",
-        "type": "1",
-        "url": "/api/base/role",
+    "menuId": "1000",
+    "type": "0",
+    "parentId": "0",
+    "url": "/systemControl",
+    "children": [{
+        "children": [],
+        "name": "系统日志",
         "icon": "",
-        "childList": [{
-                "meunId": "1001",
-                "parentId": "1",
-                "name": "添加",
-                "type": "2",
-                "url": "/add",
-                "icon": ""
-            },
-            {
-                "meunId": "1002",
-                "parentId": "1",
-                "name": "删除",
-                "type": "2",
-                "url": "/delete",
-                "icon": ""
-            }
-        ]
+        "menuId": "1021",
+        "type": "1",
+        "parentId": "1000",
+        "url": "/systemControl/logManage"
     }]
 }],
     "requestId": "233334",
