@@ -112,5 +112,24 @@
 
 请求参数示例：
 
+```
+{"deviceName":"1","productId":"2"}
+```
+
+返回报文示例：
+
+```
+{
+    "code": 0,
+    "message": "成功",
+    "requestId": "123454",
+    "result": {
+        "status": "str",
+        "name": "str"
+    },
+    "success": true
+}
+```
+
 
 
