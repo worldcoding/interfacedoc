@@ -242,5 +242,28 @@
 /modifyOrgUser
 ```
 
+请求参数示例：
+
+```
+{
+    "userId": 0,
+    "userName": "str",
+    "phone": "str",
+    "email": "str",
+    "roleId": 0
+}
+```
+
+返回报文示例：
+
+```
+{
+    "code": 0,
+    "message": "成功",
+    "requestId":"233334",
+    "success": true
+}
+```
+
 
 
