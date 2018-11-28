@@ -284,14 +284,15 @@
 
 ```
 {
+    "result":{"Authorization","token"},
+    "requestId":"233334",
     "code": 0,
     "message": "成功",
-    "requestId":"233334",
     "success": true
 }
 ```
 
-11、登录
+11、注册
 
 ```
 /register
@@ -301,6 +302,17 @@
 
 ```
 {"phone":"str","code":"str","password":"str"}
+```
+
+返回报文示例：
+
+```
+{
+    "code": 0,
+    "message": "成功",
+    "requestId":"233334",
+    "success": true
+}
 ```
 
 
