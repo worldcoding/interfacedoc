@@ -268,7 +268,7 @@
 10、移动端登录
 
 ```
-/api/base/user/mlogin
+/mlogin
 ```
 
 请求参数示例：
@@ -289,6 +289,18 @@
     "requestId":"233334",
     "success": true
 }
+```
+
+11、登录
+
+```
+/register
+```
+
+请求报文示例：
+
+```
+{"phone":"str","code":"str","password":"str"}
 ```
 
 
