@@ -382,5 +382,30 @@
 }
 ```
 
+14、个人中心
+
+```
+/userInfo
+```
+
+无请求参数
+
+返回报文示例：
+
+```
+{
+    "code": 0,
+    "message": "成功",
+    "requestId": "233334",
+    "result": {
+        "photo": "str",
+        "nick": "str",
+        "mobile": "str",
+        "name": "str"
+    },
+    "success": true
+}
+```
+
 
 
