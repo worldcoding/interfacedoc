@@ -131,5 +131,30 @@
 }
 ```
 
+5、用户设备列表
+
+```
+/userDevice
+```
+
+无请求参数
+
+返回报文示例：
+
+```
+{
+    "code": 0,
+    "message": "成功",
+    "requestId": "233334",
+    "result": [{
+        "deviceId": "str",
+        "deviceName": "str",
+        "status": "str",
+        "nickName": "str"
+    }],
+    "success": true
+}
+```
+
 
 
