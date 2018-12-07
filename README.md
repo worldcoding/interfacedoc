@@ -90,5 +90,11 @@
         String ROLE_TYPE = "roleType";
 ```
 
+登录成功之后连接websocket：
+
+```
+/socket/product/whole/{userId}
+```
+
 
 
