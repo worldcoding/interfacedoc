@@ -150,7 +150,11 @@
         "deviceId": "str",
         "deviceName": "str",
         "status": "str",
-        "nickName": "str"
+        "nickName": "str",
+        "productId":"",
+        "iconUrl":"",
+        "productName":""
+        
     }],
     "success": true
 }
