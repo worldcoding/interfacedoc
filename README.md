@@ -96,5 +96,7 @@
 /socket/product/whole/{userId}
 ```
 
+推送消息结构：
 
+`{"batchId":"str","date":"2018-12-06","result":"str"}`
 
