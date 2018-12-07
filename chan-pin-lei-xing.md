@@ -51,6 +51,7 @@
 {
     "name": "灯",
     "code": "deng",
+    "iconUrl":"",
     "remark": "物模型"
 }
 ```
@@ -87,6 +88,35 @@
     }],
     "success": true,
     "totalCount": 100
+}
+```
+
+4、修改
+
+```
+/modify
+```
+
+请求参数示例：
+
+```
+{
+    "typeId": "",
+    "name": "灯",
+    "code": "deng",
+    "iconUrl":"",
+    "remark": "物模型"
+}
+```
+
+返回报文示例：
+
+```
+{
+    "name": "灯",
+    "code": "deng",
+    "iconUrl":"",
+    "remark": "物模型"
 }
 ```
 
