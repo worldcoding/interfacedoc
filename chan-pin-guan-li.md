@@ -257,5 +257,33 @@
 }
 ```
 
+8、获取轮询属性
+
+```
+/pollAttr
+```
+
+请求参数：
+
+```
+{"productId":"2"}
+```
+
+返回报文示例：
+
+```
+{
+    "code": 0,
+    "message": "成功",
+    "requestId": "123454",
+    "result": [{
+        "key": "str",
+        "name": "str",
+        "type": "str"
+    }],
+    "success": true
+}
+```
+
 
 
