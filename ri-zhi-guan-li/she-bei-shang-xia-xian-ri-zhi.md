@@ -83,12 +83,13 @@
     "message": "成功",
     "requestId": "123454",
     "result": [{
-        "2018-09-06": {
-            "gmtCreate": "19:08:22",
+        "date": "2017-12-22",
+        "data": [{
             "status": "1",
             "statusName": "在线",
-            "time": "12"
-        }
+            "time": "12",
+            "gmtCreate": "19:08:22"
+        }]
     }],
     "success": true
 }
