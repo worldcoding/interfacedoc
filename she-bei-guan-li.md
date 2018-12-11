@@ -214,8 +214,15 @@
 
 ```
 {
-    "attrList": [""],
-    "cycle": "100"
+    "pollConfigList": [{
+        "property": "str",
+        "type": "str",
+        "cycle": 0,
+        "value": 0
+    }],
+    "deviceId": "str",
+    "deviceName": "str",
+    "productId": "str"
 }
 ```
 
