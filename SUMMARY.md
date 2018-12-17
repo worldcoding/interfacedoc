@@ -19,4 +19,5 @@
   * [用户统计](shou-ye-tong-ji/yong-hu-tong-ji.md)
   * [设备统计](shou-ye-tong-ji/she-bei-tong-ji.md)
 * [在线调试](zai-xian-diao-shi.md)
+* [设备批量删除](she-bei-pi-liang-shan-chu.md)
 
